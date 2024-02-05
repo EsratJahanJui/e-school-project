@@ -1,0 +1,222 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #f0fff0;
+  padding: 0px 140px;
+}
+.container-header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.logo {
+  padding-top: 15px;
+  align-items: center;
+}
+.nav-flex li {
+  list-style: none;
+}
+.nav-flex {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.nav-btn {
+  padding: 8px 15px;
+  background-color: #21b573;
+  color: white;
+  border-radius: 9px;
+  border-style: none;
+}
+
+/* for nav responsive */
+
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+}
+
+/* Banner Css */
+
+.banner {
+  background-color: #f0fff0;
+  padding: 70px 140px;
+  display: flex;
+  gap: 50px;
+}
+.banner-img {
+  width: 600px;
+}
+.banner-span-text {
+  color: #fd511a;
+}
+.text-h {
+  padding-top: 10px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.h-text-color {
+  color: #21b573;
+}
+.text-left {
+  padding-top: 10px;
+  color: #6c6b6b;
+  padding-bottom: 20px;
+}
+.btn {
+  padding: 11px 28px;
+  border-radius: 20px;
+  background-color: #21b573;
+  border-style: none;
+  color: white;
+}
+
+/* 
+
+second Section
+
+*/
+.about-section {
+  padding: 60px 140px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+.topic {
+  background-color: #f5fffa;
+
+  border-radius: 10px;
+}
+.topic-center {
+  padding: 70px;
+}
+.topic-img {
+  width: 44%;
+
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.topic-font {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #585859;
+}
+
+/* 
+All Courses
+ */
+.course-h {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.course-container {
+  padding: 0px 140px;
+  background-color: #ffffff;
+  padding-bottom: 40px;
+}
+.item-img {
+  width: 317px;
+}
+
+.course-item-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 15px;
+  gap: 10px;
+}
+
+.course-item {
+  padding: 18px;
+  background-color: #ffffff;
+
+  border-radius: 21px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px 10px whitesmoke;
+}
+.item-info {
+  display: inline-block;
+
+  padding-top: 20px;
+}
+.topic-padding {
+  padding-top: 8px;
+}
+
+/* Courses LInk */
+.courses-link {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+/* Testimonial Section */
+.img-tes {
+  width: 8%;
+}
+.text-test {
+  width: 600px;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 23px;
+}
+.container-tes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* Footer */
+footer {
+  background-color: #282531;
+  color: #ffffff;
+  padding: 50px 140px;
+  display: flex;
+  /* flex-direction: row !important; */
+}
+
+.left-part {
+  width: 50%;
+}
+.left-part p {
+  text-align: left;
+  padding-top: 25px;
+}
+
+.right-part {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 60px;
+}
+.footer-item ul li {
+  list-style: none;
+}
+.footer-item ul li a {
+  color: azure;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+/* footer-c */
+.footer-c {
+  background-color: #282531;
+  color: #ffffff;
+  padding: 40px 140px;
+  text-align: center;
+}
+.footer-c p a {
+  color: azure;
+  text-decoration: none;
+}

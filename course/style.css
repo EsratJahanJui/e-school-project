@@ -1,0 +1,134 @@
+html {
+    font-family: "Poppins", sans-serif;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    /* background-color: #f0fff0; */
+    padding: 0px 140px;
+  }
+  .container-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .logo {
+    padding-top: 15px;
+    align-items: center;
+  }
+  .nav-flex li {
+    list-style: none;
+  }
+  .nav-flex {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .nav-btn {
+    padding: 8px 15px;
+    background-color: #21b573;
+    color: white;
+    border-radius: 9px;
+    border-style: none;
+  }
+
+  /* For All Courses */
+  .course-h {
+    
+    padding: 25px 140px;
+  }
+  
+  .course-container {
+    padding: 0px 140px;
+    background-color: #ffffff;
+    padding-bottom: 40px;
+    display: flex;
+    gap:10px;
+    /* grid-template-columns: repeat(2,2fr,1fr); */
+  }
+  .item-img {
+    width: 317px;
+  }
+  
+  .course-item-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 15px;
+    gap: 10px;
+  }
+  
+  .course-item {
+    padding: 18px;
+    background-color: #ffffff;
+  
+    border-radius: 21px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px 10px whitesmoke;
+  }
+  .item-info {
+    display: inline-block;
+  
+    padding-top: 20px;
+  }
+  .topic-padding {
+    padding-top: 8px;
+  }
+  .btn {
+    padding: 11px 28px;
+    border-radius: 20px;
+    background-color: #21b573;
+    border-style: none;
+    color: white;
+  }
+   
+  /* Footer */
+footer {
+  background-color: #282531;
+  color: #ffffff;
+  padding: 50px 140px;
+  display: flex;
+  /* flex-direction: row !important; */
+}
+
+.left-part {
+  width: 50%;
+}
+.left-part p {
+  text-align: left;
+  padding-top: 25px;
+}
+
+.right-part {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 60px;
+}
+.footer-item ul li {
+  list-style: none;
+}
+.footer-item ul li a {
+  color: azure;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+/* Cart */
+.right-cart-contain{
+  width:600px;
+   
+}
+
+/* footer-c */
+.footer-c {
+  background-color: #282531;
+  color: #ffffff;
+  padding: 40px 140px;
+  text-align: center;
+}
+.footer-c p a {
+  color: azure;
+  text-decoration: none;
+}
